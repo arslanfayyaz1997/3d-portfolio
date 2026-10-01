@@ -38,7 +38,7 @@ function Contact(){const [sent,setSent]=useState(false);const submit=(e)=>{e.pre
 function Footer(){return <footer><div><b>Arslan Fayyaz</b><span>Full Stack • UX/UI • Creative Development</span></div><div className="footer-socials">{socials.map(([n,u,ic])=><a key={n} href={u} target={u.startsWith('http')?'_blank':undefined} rel="noreferrer" title={n}>{ic}</a>)}</div><small>© {new Date().getFullYear()} Arslan Fayyaz. Built with React + Vite.</small></footer>}
 function App(){return <><Nav/><main><Hero/><About/><Experience/><Projects/><Skills/><Reviews/><Education/><Contact/></main><Footer/><a
   className="whatsapp"
-  href="https://wa.me/923XXXXXXXXX"
+  href="https://wa.me/923103321891"
   target="_blank"
   rel="noreferrer"
   aria-label="Chat on WhatsApp"
