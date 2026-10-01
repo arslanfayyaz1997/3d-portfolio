@@ -5,3 +5,19 @@
 @media(prefers-reduced-motion:reduce){*{scroll-behavior:auto!important;animation:none!important;transition:none!important}}
 .map-card{margin-top:22px;padding:15px;border-radius:18px;background:rgba(255,255,255,.65);border:1px solid rgba(255,255,255,.8);display:flex;align-items:center;justify-content:space-between;gap:15px}.map-card b,.map-card span{display:block}.map-card span{font-size:12px;color:#65706b;margin-top:4px}.map-btn{font-size:11px;font-weight:800;white-space:nowrap;padding:9px 11px;background:#fff;border-radius:11px}
 @media(max-width:620px){.map-card{align-items:flex-start;flex-direction:column}.map-btn{white-space:normal}}
+.portrait-placeholder {
+  overflow: hidden;
+}
+
+.portrait-placeholder .profile-photo {
+  position: absolute;
+  inset: 8px;
+  width: calc(100% - 16px);
+  height: calc(100% - 16px);
+  max-width: none;
+  max-height: none;
+  object-fit: cover;
+  object-position: center top;
+  display: block;
+  border-radius: 35% 35% 20px 20px;
+}
