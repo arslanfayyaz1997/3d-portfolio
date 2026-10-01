@@ -20,7 +20,7 @@ function About(){return <Section id="about" kicker="01 / About" title="A develop
       src="/profile.jpg"
       alt="Arslan Fayyaz"
     />
-
+</div>
 </div><div className="about-copy"><p>I specialize in building modern web applications, creating intuitive UI/UX designs, and developing AI-powered digital solutions. My skills span frontend and backend development, responsive web design, API integration, database management, Generative AI, and software development tools. I enjoy transforming ideas into practical, user-friendly, and visually engaging digital experiences while continuously learning and exploring emerging technologies.</p><div className="about-pills"><span>Problem Solver</span><span>UI/UX Mindset</span><span>Full Stack</span><span>AI Curious</span></div><div className="quote">“Good interfaces disappear into the experience — they just make the work feel easier.”</div><a className="text-link" href={site.voiceflow} target="_blank" rel="noreferrer">Meet my AI assistant ↗</a></div></div></Section>}
 
 function Experience(){return <Section id="experience" kicker="02 / Experience" title="Experience that keeps evolving" sub="Internships, professional roles and hands-on work across design, development, sales and QA."><div className="timeline">{experience.map((e,i)=><article className="timeline-item" key={i}><div className="dot"></div><div className="time-card"><div className="time-top"><span>{e.dates}</span><b>{e.company}</b></div><h3>{e.role}</h3><small>{e.type} · {e.location}</small><p>{e.description}</p></div></article>)}</div></Section>}
