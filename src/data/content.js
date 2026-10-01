@@ -27,12 +27,47 @@ export const education=[
 export const certifications=[['Cisco Verified Certificate — Introduction to Modern AI','Cisco Networking Academy','Jun 2026'],['Cisco Verified Certificate — Introduction to Data Science','Cisco Networking Academy','Jul 2026'],['MS Office','Sistech Institute Sukkur','Feb 2022'],['Acceptance Test Driven Development for the Front End','Test Automation University (Powered by Applitools)','Jun 2026'],['Selenium WebDriver with Python','Test Automation University (Powered by Applitools)','Jul 2026'],['OPSWAT Introduction to Critical Infrastructure Protection (ICIP)','OPSWAT','Aug 2026'],['Building with the Claude API','Anthropic','Aug 2026'],['Testing Course (SQE)','Big Brains','Aug 2026']];
 export const awards=[{title:'Member / Youth Representative',organization:'Youth Parliament',date:'Aug 2022',description:'Participated in youth leadership workshops, community outreach initiatives, public welfare campaigns and community events.'}];
 export const skills=[['HTML5','Frontend'],['CSS3','Frontend'],['JavaScript','Frontend'],['React','Frontend'],['Responsive Design','Frontend'],['Tailwind CSS','Frontend'],['Git','Development'],['GitHub','Development'],['Vercel','Deployment'],['API Integration','Development'],['UI/UX Design','Design'],['Figma','Design'],['Adobe Illustrator','Design'],['Animations','Creative'],['Three.js','3D'],['React Three Fiber','3D'],['Framer Motion','Animation'],['MERN Stack','Full Stack'],['Node.js','Backend'],['Express.js','Backend'],['MongoDB','Database'],['REST APIs','Backend'],['WordPress','CMS'],['Leadership','Soft Skill'],['Problem Solving','Soft Skill'],['Communication','Soft Skill']];
-export const reviews=[
-{company:'FlyRank AI',image:'/reviews/01-flyrank-latest.jpg',label:'Latest recognition',text:'Rank #1 in Pakistan and globally on the UI/UX track — a massive result.'},
-{company:'Eman Tariq',image:'/reviews/02-eman-tariq.jpg',label:'Community recognition',text:'Congratulations 👋'},
-{company:'FlyRank AI',image:'/reviews/03-flyrank-second.jpg',label:'Program result',text:'Second in the whole program and first in Pakistan on the UI/UX track.'},
-{company:'CodeAlpha',image:'/reviews/04-codealpha.jpg',label:'Recognition',text:'Congratulations 🎉'},
-{company:'Decodelabs',image:'/reviews/05-decodelabs.jpg',label:'Community recognition',text:'Well deserved! Thank you for being a part of the DecodeLabs community.'},
-{company:'Internify',image:'/reviews/06-internify.jpg',label:'Internship welcome',text:'Welcome to the Internify Internship Program.'},
-{company:'PICS Official Software Company',image:'/reviews/07-pics-official.jpg',label:'Final appreciation',text:'Gratitude & Appreciation for Mr. Arslan Fayyaz — Graphics & UI/UX Designer.'}
+export const reviews = [
+{
+company: 'FlyRank AI',
+image: '/reviews/01-flyrank-latest.jpg',
+label: 'Latest recognition',
+text: 'Rank #1 in Pakistan and globally on the UI/UX track — a massive result.'
+},
+{
+company: 'Eman Tariq',
+image: '/reviews/02-eman-tariq.jpg',
+label: 'Community recognition',
+text: 'Congratulations 👋'
+},
+{
+company: 'FlyRank AI',
+image: '/reviews/03-flyrank-second.jpg',
+label: 'Program result',
+text: 'Second in the whole program and first in Pakistan on the UI/UX track.'
+},
+{
+company: 'CodeAlpha',
+image: '/reviews/04-codealpha.jpg',
+label: 'Recognition',
+text: 'Congratulations 🎉'
+},
+{
+company: 'DecodeLabs',
+image: '/reviews/05-decodelabs.jpg',
+label: 'Community recognition',
+text: 'Well deserved! Thank you for being a part of the DecodeLabs community.'
+},
+{
+company: 'Internify',
+image: '/reviews/06-internify.jpg',
+label: 'Internship welcome',
+text: 'Welcome to the Internify Internship Program.'
+},
+{
+company: 'PICS Official Software Company',
+image: '/reviews/07-pics-official.jpg',
+label: 'Final appreciation',
+text: 'Gratitude & Appreciation for Mr. Arslan Fayyaz — Graphics & UI/UX Designer.'
+}
 ];
