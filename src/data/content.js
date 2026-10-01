@@ -69,7 +69,7 @@ company: 'PICS Official Software Company',
 image: '/reviews/07-pics-official.jpg',
 label: 'Final appreciation',
 text: 'Gratitude & Appreciation for Mr. Arslan Fayyaz — Graphics & UI/UX Designer.'
-}
+},
   {
   company: 'Internify',
   image: '/reviews/08-new-review.jpg',
