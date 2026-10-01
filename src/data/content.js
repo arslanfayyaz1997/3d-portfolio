@@ -70,4 +70,10 @@ image: '/reviews/07-pics-official.jpg',
 label: 'Final appreciation',
 text: 'Gratitude & Appreciation for Mr. Arslan Fayyaz — Graphics & UI/UX Designer.'
 }
+  {
+  company: 'Internify',
+  image: '/reviews/08-new-review.jpg',
+  label: 'Company recognition',
+  text: 'Successfully completed the Internify Internship from 1 September to 30 September 2026.'
+},
 ];
