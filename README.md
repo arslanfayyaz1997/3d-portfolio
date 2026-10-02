@@ -51,7 +51,6 @@ The exact effects depend on the current implementation. The project primarily us
 
 ## Screenshots
 
-Add your own screenshots to `docs/screenshots/` using the filenames below. The images will appear here automatically once uploaded and committed to GitHub.
 
 ### Home / Hero
 ![Home and hero section](docs/screenshots/home-hero.png)
@@ -80,7 +79,6 @@ Add your own screenshots to `docs/screenshots/` using the filenames below. The i
 ### Mobile View
 ![Mobile layout](docs/screenshots/mobile-view.png)
 
-> **Screenshot tip:** Use PNG or JPG images. If you use JPG, either rename the file to match the `.png` path above or update the corresponding image path in this README.
 
 ## Technologies
 
