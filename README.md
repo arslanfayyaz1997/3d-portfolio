@@ -147,9 +147,7 @@ These commands assume the corresponding scripts exist in `package.json`.
 
 The live portfolio is hosted on Vercel:
 
-**https://3d-portfolio-rust-beta.vercel.app/**
-
-For updates, edit the existing project files, commit the changes to the connected GitHub repository, and verify the new deployment on the live website.
+**https://porfolio-arslanfayyaz.vercel.app/**
 
 ## Updating Portfolio Content
 
@@ -181,7 +179,7 @@ I enjoy building responsive web experiences, designing intuitive interfaces, exp
 
 ### Connect
 
-- **Portfolio:** https://3d-portfolio-rust-beta.vercel.app/
+- **Portfolio:** https://porfolio-arslanfayyaz.vercel.app/
 - **GitHub:** https://github.com/arslanfayyaz1997/
 - **LinkedIn:** https://www.linkedin.com/in/arslan-fayyaz-3a4781214
 - **Instagram:** https://www.instagram.com/arsfamixm/
