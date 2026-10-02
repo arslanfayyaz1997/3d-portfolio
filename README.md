@@ -7,7 +7,7 @@
 </p>
 
 <p align="center">
-  <a href="https://3d-portfolio-rust-beta.vercel.app/">Live Portfolio</a> ·
+  <a href="https://porfolio-arslanfayyaz.vercel.app/">Live Portfolio</a> ·
   <a href="https://github.com/arslanfayyaz1997">GitHub</a> ·
   <a href="mailto:arslanfayyaz1997@gmail.com">Email Me</a>
 </p>
