@@ -120,7 +120,45 @@ function Contact() {
     </Section>
   );
 }
-function Footer(){return <footer><div><b>Arslan Fayyaz</b><span>Full Stack • UX/UI • Creative Development</span></div><div className="footer-socials">{socials.map(([n,u,ic])=><a key={n} href={u} target={u.startsWith('http')?'_blank':undefined} rel="noreferrer" title={n}>{ic}</a>)}</div><small>© {new Date().getFullYear()} Arslan Fayyaz. Built with React + Vite.</small></footer>}
+function Footer() {
+  return (
+    <footer>
+      <div>
+        <b>Arslan's Portfolio</b>
+        <span>Full Stack - MERN Developer</span>
+      </div>
+
+      <div className="footer-socials">
+        {socials.map(([n, u, ic]) => {
+          // Use the updated profile links for LinkedIn and Instagram
+          const updatedUrl =
+            n.toLowerCase().includes("linkedin")
+              ? "https://www.linkedin.com/in/arslan-fayyaz-3a4781214"
+              : n.toLowerCase().includes("instagram")
+              ? "https://www.instagram.com/arsfamixm/"
+              : u;
+
+          return (
+            <a
+              key={n}
+              href={updatedUrl}
+              target={updatedUrl.startsWith("http") ? "_blank" : undefined}
+              rel="noreferrer"
+              title={n}
+              aria-label={n}
+            >
+              {ic}
+            </a>
+          );
+        })}
+      </div>
+
+      <small>
+        © 2026 Arslan's Portfolio. Built with React + Vite.
+      </small>
+    </footer>
+  );
+}
 function App(){return <><Nav/><main><Hero/><About/><Experience/><Projects/><Skills/><Reviews/><Education/><Contact/></main><Footer/><a
   className="whatsapp"
   href="https://wa.me/923103321891"
