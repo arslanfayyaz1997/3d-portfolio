@@ -121,6 +121,13 @@ function Contact() {
   );
 }
 function Footer() {
+  const footerSocials = [
+    ["LinkedIn", "https://www.linkedin.com/in/arslan-fayyaz-3a4781214", "in"],
+    ["Instagram", "https://www.instagram.com/arsfamixm/", "◎"],
+    ["GitHub", "https://github.com/arslanfayyaz1997", "⌘"],
+    ["Email", "mailto:arslanfayyaz1997@gmail.com", "✉"]
+  ];
+
   return (
     <footer>
       <div>
@@ -129,33 +136,21 @@ function Footer() {
       </div>
 
       <div className="footer-socials">
-        {socials.map(([n, u, ic]) => {
-          // Use the updated profile links for LinkedIn and Instagram
-          const updatedUrl =
-            n.toLowerCase().includes("linkedin")
-              ? "https://www.linkedin.com/in/arslan-fayyaz-3a4781214"
-              : n.toLowerCase().includes("instagram")
-              ? "https://www.instagram.com/arsfamixm/"
-              : u;
-
-          return (
-            <a
-              key={n}
-              href={updatedUrl}
-              target={updatedUrl.startsWith("http") ? "_blank" : undefined}
-              rel="noreferrer"
-              title={n}
-              aria-label={n}
-            >
-              {ic}
-            </a>
-          );
-        })}
+        {footerSocials.map(([name, url, icon]) => (
+          <a
+            key={name}
+            href={url}
+            target={url.startsWith("http") ? "_blank" : undefined}
+            rel="noreferrer"
+            title={name}
+            aria-label={name}
+          >
+            {icon}
+          </a>
+        ))}
       </div>
 
-      <small>
-        © 2026 Arslan's Portfolio. Built with React + Vite.
-      </small>
+      <small>© 2026 Arslan's Portfolio. Built with React + Vite.</small>
     </footer>
   );
 }
